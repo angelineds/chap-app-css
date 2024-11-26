@@ -3,6 +3,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  background-color: #FAFAFA;
 }
 
 .background {
@@ -14,21 +15,21 @@ body {
 }
 
 .left-side {
-  width: 420px;
+  width: 511px;
   height: 700px;
-  margin-left: -90px;
-  border-bottom-left-radius: 276px;
-  border-bottom-right-radius: 276px;
+  margin-left: -89px;
+  border-bottom-left-radius: 350px;
+  border-bottom-right-radius: 350px;
   background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   box-sizing: border-box;
 }
 
 .right-side {
-  width: 420px;
+  width: 511px;
   height: 680px;
   padding: 0;
   margin: 0;
-  margin-right: -185px;
+  margin-right: -188px;
   margin-top: 120px;
   margin-bottom: 0;
   border-top-left-radius: 276px;
@@ -38,40 +39,46 @@ body {
 }
 
 .display {
-  width: 815px;
+  width: 812px;
   height: 505px;
   position: absolute;
-  left: 20%;
-  top: 18%;
+  left: 363px;
+  top: 148px;
   display: flex;
   justify-content: space-between;
 }
 
 .phone {
   width: 247px;
-  height: 504px;
-  border: 10px solid white;
-  border-radius: 33px;
+  height: 505px;
+  border: 11px solid white;
+  border-radius: 30px;
   box-sizing: border-box;
   background-color: #F5F3F8;
   position: relative;
-  box-shadow: 0 1px 20px 1px #AFAEB3;
+  box-shadow: 12px 12px 28px 2px #D6D3DA;
 }
 
 .text {
-  width: 445px;
+  width: 441px;
   align-self: center;
 }
 
 .text h1 {
   color: #38264C;
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 31px;
+  font-weight: 500;
+  height: 39px;
 }
 
 .text p {
   color: #AFAEB3;
-  line-height: 25px;
+  line-height: 174%;
+  height: 103px;
   font-size: 16px;
+  margin: 0;
 }
 
 .header-phone {
@@ -86,14 +93,14 @@ body {
 }
 
 .header-upper {
-  width: 50%;
-  height: 20%;
-  justify-self: center;
-  top: 0%;
-  left: 45%;
+  width: 130px;
+  height: 29px;
+  margin-top: -11px;
+  margin-left: 49px;
   background-color: white;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .header-contact {
