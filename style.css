@@ -50,11 +50,12 @@ body {
 .phone {
   width: 247px;
   height: 504px;
-  border: 10px solid black;
+  border: 10px solid white;
   border-radius: 33px;
   box-sizing: border-box;
   background-color: #F5F3F8;
   position: relative;
+  box-shadow: 0 1px 20px 1px #AFAEB3;
 }
 
 .text {
@@ -88,10 +89,11 @@ body {
   width: 50%;
   height: 20%;
   justify-self: center;
-  left: 25%;
+  top: 0%;
+  left: 45%;
   background-color: white;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .header-contact {
